@@ -1,7 +1,7 @@
-# Legacy R scripts (first submission, unchanged)
+# Legacy R scripts
 
 These are the original numbered R scripts (`01_…` to `07b_…`) that
-produced the results of the first JCIM submission. They are archived
+produced the results of the original work. They are archived
 unmodified for provenance and are no longer maintained. The Python package
 in `src/hgtitr` supersedes them:
 
@@ -13,7 +13,7 @@ in `src/hgtitr` supersedes them:
 | `06_HGtitr_spectral_shift_fitter.R`, `07_…` | `hgtitr.spectral` (explicit occupancy coordinate, AR(1) GLS) |
 | `03b_…`, `05b_…`, `07b_…` | `benchmarks/`, `examples/analysis_experimental.py` |
 
-Known issues fixed in the rewrite:
+Known issues fixed in the Python version:
 * The simulated "data" in `03b` were generated with the same thin-plate-spline
   emulator used for fitting, so emulator error could not appear in the recovery tests.
 * `fields::Tps` smoothing (GCV) and thinning to `max_train` points add
