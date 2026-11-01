@@ -7,7 +7,7 @@ name = "hgtitrmanifree"
 version = "1.0.0"
 description = "Host-guest titration simulation, global fitting and uncertainty analysis (free-component manifold, exact speciation, VARPRO, NUTS)"
 readme = "README.md"
-license = { text = "MIT" }
+license = { text = "GLP-3.0" }
 authors = [{ name = "Arash Mirzahosseini" }]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24", "scipy>=1.11", "pandas>=2.0"]
