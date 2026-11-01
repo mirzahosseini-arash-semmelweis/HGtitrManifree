@@ -1,0 +1,30 @@
+{'python': '3.13.18', 'numpy': '2.5.3', 'scipy': '1.18.1', 'platform': 'Linux-6.18.44-fc-v185-x86_64-with-glibc2.39', 'cpu': 'x86_64', 'n_cpu': 2, 'jax': '0.12.0.1', 'numpyro': '0.22.0'}
+               max_rel_signal_err  max_frac_err    t_tps_ms  t_exact_ms
+n_h max_train                                                          
+25  300                  0.020204      0.029880    4.229669    1.447971
+    1200                 0.016140      0.029880    4.720391    1.568133
+    3000                 0.011410      0.029880    4.001282    1.432360
+50  300                  0.027032      0.038534    7.086929    1.572680
+    1200                 0.005378      0.005623   20.051960    1.594842
+    3000                 0.002481      0.003367   31.650894    1.671576
+100 300                  0.030920      0.043309   12.141806    1.457635
+    1200                 0.005806      0.006075   36.966557    1.365109
+    3000                 0.001059      0.001263  374.123325    1.536029
+c            0.1      1.0      10.0     100.0    1000.0
+model logK                                             
+1:1   3     0.02434  0.01050  0.02193      NaN      NaN
+      5     0.01180  0.00598  0.00850  0.00927  0.03381
+      7         NaN  0.00151  0.00369  0.00460  0.02240
+      9         NaN      NaN      NaN  0.00299  0.00578
+1:2   3     0.02687  0.01085  0.00963      NaN      NaN
+      5     0.01363  0.00624  0.00583  0.00616  0.00549
+      7         NaN  0.00263  0.00122  0.00277  0.00325
+      9         NaN      NaN      NaN  0.00092  0.00150
+2:1   3     0.02335  0.00864  0.00971      NaN      NaN
+      5     0.01204  0.00459  0.00499  0.00669  0.00078
+      7         NaN  0.00144  0.00242  0.00080  0.00045
+      9         NaN      NaN      NaN  0.00156  0.00017
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 8 leaked semlock objects to clean up at shutdown: {'/loky-4314-h_74nzsz': 1, '/loky-4314-_67eokj2': 1, '/loky-4314-j2e9vlqg': 1, '/loky-4314-7fkfhdk0': 1, '/loky-4314-l94tzqv6': 1, '/loky-4314-mkn0p5v5': 1, '/loky-4314-ghefupnh': 1, '/loky-4314-ca5k41uw': 1}
+  warnings.warn(
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 3 leaked folder objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_4314_bb8055ac36db4f079b31bbe6dfd0149c_aa362c38531244f0a854ddf807a6082e': 1, '/dev/shm/joblib_memmapping_folder_4314_eebde89745fe4955b1f5f7c782613e67_b089614ee1754412b4ff1def889385dd': 1, '/dev/shm/joblib_memmapping_folder_4314_bb8055ac36db4f079b31bbe6dfd0149c_8994700b0ca04c069bcf0b089e2b5e25': 1}
+  warnings.warn(

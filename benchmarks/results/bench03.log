@@ -1,0 +1,111 @@
+{'python': '3.13.18', 'numpy': '2.5.3', 'scipy': '1.18.1', 'platform': 'Linux-6.18.44-fc-v185-x86_64-with-glibc2.39', 'cpu': 'x86_64', 'n_cpu': 2, 'jax': '0.12.0.1', 'numpyro': '0.22.0'}
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 0 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 1 done
+block 2 done
+block 3 done
+block 4 done
+block 5 done
+block 6 done
+block 7 done
+block 8 done
+block 9 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 10 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 11 done
+block 12 done
+block 13 done
+block 14 done
+block 15 done
+block 16 done
+block 17 done
+block 18 done
+block 19 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 20 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 21 done
+block 22 done
+block 23 done
+block 24 done
+block 25 done
+block 26 done
+block 27 done
+block 28 done
+block 29 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 30 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 31 done
+block 32 done
+block 33 done
+block 34 done
+block 35 done
+block 36 done
+block 37 done
+block 38 done
+block 39 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 40 done
+/usr/local/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+block 41 done
+block 42 done
+block 43 done
+block 44 done
+block 45 done
+block 46 done
+block 47 done
+block 48 done
+block 49 done
+          scenario species  ...   mc_se  median_ess_per_s
+0          S1_1to1    H1G1  ...  0.0237               NaN
+1          S1_1to1    H1G1  ...  0.1521            7.3738
+2          S1_1to1    H1G1  ...  0.0455           52.2368
+3          S1_1to1    H1G1  ...  0.0168               NaN
+4          S1_1to1    H1G1  ...  0.0161               NaN
+5   S1_1to1+conc3%    H1G1  ...  0.0477               NaN
+6   S1_1to1+conc3%    H1G1  ...  0.0000           15.2274
+7   S1_1to1+conc3%    H1G1  ...  0.0911           51.2234
+8   S1_1to1+conc3%    H1G1  ...  0.0337               NaN
+9   S1_1to1+conc3%    H1G1  ...  0.0340               NaN
+10  S1_1to1+conc3%    H1G1  ...  0.0139               NaN
+11         S4_1to2    H1G1  ...  0.0218               NaN
+12         S4_1to2    H1G1  ...  0.0000            4.6227
+13         S4_1to2    H1G1  ...  0.0000           29.5736
+14         S4_1to2    H1G1  ...  0.0154               NaN
+15         S4_1to2    H1G1  ...  0.0139               NaN
+16         S4_1to2    H1G2  ...  0.0286               NaN
+17         S4_1to2    H1G2  ...  0.0000            4.3633
+18         S4_1to2    H1G2  ...  0.0328           26.1388
+19         S4_1to2    H1G2  ...  0.0180               NaN
+20         S4_1to2    H1G2  ...  0.0174               NaN
+21  S4_1to2+conc3%    H1G1  ...  0.0400               NaN
+22  S4_1to2+conc3%    H1G1  ...  0.0328           26.8419
+23  S4_1to2+conc3%    H1G1  ...  0.0680           31.2322
+24  S4_1to2+conc3%    H1G1  ...  0.0275               NaN
+25  S4_1to2+conc3%    H1G1  ...  0.0262               NaN
+26  S4_1to2+conc3%    H1G1  ...  0.0121               NaN
+27  S4_1to2+conc3%    H1G2  ...  0.0336               NaN
+28  S4_1to2+conc3%    H1G2  ...  0.0455           25.1901
+29  S4_1to2+conc3%    H1G2  ...  0.0548           25.1038
+30  S4_1to2+conc3%    H1G2  ...  0.0230               NaN
+31  S4_1to2+conc3%    H1G2  ...  0.0217               NaN
+32  S4_1to2+conc3%    H1G2  ...  0.0147               NaN
+33   S5_tight_1to1    H1G1  ...  0.0271               NaN
+34   S5_tight_1to1    H1G1  ...  0.0000           54.1661
+35   S5_tight_1to1    H1G1  ...  0.0174               NaN
+36   S5_tight_1to1    H1G1  ...  0.0174               NaN
+
+[37 rows x 9 columns]

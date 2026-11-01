@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hgtitrmanifree"
+version = "1.0.0"
+description = "Host-guest titration simulation, global fitting and uncertainty analysis (free-component manifold, exact speciation, VARPRO, NUTS)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Arash Mirzahosseini" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.11", "pandas>=2.0"]
+
+[project.optional-dependencies]
+bayes = ["jax>=0.4.30", "numpyro>=0.15"]
+plot = ["matplotlib>=3.7"]
+bench = ["jax>=0.4.30", "numpyro>=0.15", "matplotlib>=3.7", "musketeer>=1.10"]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

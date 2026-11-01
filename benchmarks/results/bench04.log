@@ -1,0 +1,45 @@
+{'python': '3.13.18', 'numpy': '2.5.3', 'scipy': '1.18.1', 'platform': 'Linux-6.18.44-fc-v185-x86_64-with-glibc2.39', 'cpu': 'x86_64', 'n_cpu': 2, 'jax': '0.12.0.1', 'numpyro': '0.22.0'}
+block 0 done
+block 1 done
+block 2 done
+block 3 done
+block 4 done
+block 5 done
+block 6 done
+block 7 done
+block 8 done
+block 9 done
+block 10 done
+block 11 done
+block 12 done
+block 13 done
+block 14 done
+block 15 done
+
+Selected by AIC:
+candidate                  1:1 fixed  ...  HG_I+HG_II shifted(both)
+truth        design noise             ...                          
+A_shift_1to1 bvd13  ar1            0  ...                         2
+                    iid            0  ...                         2
+             ext25  ar1            0  ...                         3
+                    iid            0  ...                         4
+B_fixed_1to2 bvd13  ar1            3  ...                         0
+                    iid            0  ...                         2
+             ext25  ar1            0  ...                         1
+                    iid            0  ...                         0
+
+[8 rows x 5 columns]
+
+Selected by BIC:
+candidate                  1:1 fixed  ...  HG_I+HG_II shifted(both)
+truth        design noise             ...                          
+A_shift_1to1 bvd13  ar1            0  ...                         0
+                    iid            0  ...                         2
+             ext25  ar1            0  ...                         0
+                    iid            0  ...                         4
+B_fixed_1to2 bvd13  ar1            7  ...                         0
+                    iid            0  ...                         2
+             ext25  ar1            0  ...                         0
+                    iid            0  ...                         0
+
+[8 rows x 5 columns]
