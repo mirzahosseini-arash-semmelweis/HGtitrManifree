@@ -1,6 +1,10 @@
 """End-to-end example: simulate -> fit candidate models -> select -> uncertainty.
 
 python examples/quickstart.py            (about 1 minute; NUTS step needs jax + numpyro)
+
+It is recommended to install `hgtitr` in editable mode:
+cd C:\path\to\HGtitrmanifree
+py -3.1x -m pip install -e .
 """
 import numpy as np
 
